@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManejoDeEventos", "ManejoDeEventos\ManejoDeEventos.csproj", "{49661EED-59F4-465E-91FB-806C1D26D388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MannejoDeEventos.API", "MannejoDeEventos.API\MannejoDeEventos.API.csproj", "{4350BF98-F73C-479A-AD0E-6C349A39BF23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49661EED-59F4-465E-91FB-806C1D26D388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49661EED-59F4-465E-91FB-806C1D26D388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49661EED-59F4-465E-91FB-806C1D26D388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49661EED-59F4-465E-91FB-806C1D26D388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4350BF98-F73C-479A-AD0E-6C349A39BF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4350BF98-F73C-479A-AD0E-6C349A39BF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4350BF98-F73C-479A-AD0E-6C349A39BF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4350BF98-F73C-479A-AD0E-6C349A39BF23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54C7340F-05CF-40EC-8B55-D710E37A1183}
+	EndGlobalSection
+EndGlobal

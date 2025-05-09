@@ -1,0 +1,11 @@
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\ManejoDeEventos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\ManejoDeEventos.AssemblyInfoInputs.cache
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\ManejoDeEventos.AssemblyInfo.cs
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\ManejoDeEventos.csproj.CoreCompileInputs.cache
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\bin\Debug\net8.0\ManejoDeEventos.deps.json
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\bin\Debug\net8.0\ManejoDeEventos.dll
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\bin\Debug\net8.0\ManejoDeEventos.pdb
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\ManejoDeEventos.dll
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\refint\ManejoDeEventos.dll
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\ManejoDeEventos.pdb
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\ref\ManejoDeEventos.dll
