@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "dExZfLxzNa5TPZcNxpB8GG+n9jeO+9+wpkaxGATvs/0=",
+  "Source": "ManejoDeEventos.API",
+  "BasePath": "_content/ManejoDeEventos.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
