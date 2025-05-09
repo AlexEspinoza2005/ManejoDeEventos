@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ManejoDeEventosTest")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ManejoDeEventos.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+604fc8a8f64ae808fcc0b561cd080cc7c96ae3d1")]
-[assembly: System.Reflection.AssemblyProductAttribute("ManejoDeEventosTest")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ManejoDeEventosTest")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9a37b9b7034487d400dc2d32d4f4551ecb2fca4")]
+[assembly: System.Reflection.AssemblyProductAttribute("ManejoDeEventos.Test")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ManejoDeEventos.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

@@ -1,14 +1,19 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using ManejoDeEventos;
 using ManejoDeEventos.API.Consumer;
 
 namespace ManejoDeEventosTest
+=======
+﻿namespace ManejoDeEventosTest
+>>>>>>> b2e9dc3 (Add version 1.1)
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             ProbarParticipantes();
             ProbarEventos();
             ProbarPonentes();
@@ -115,5 +120,9 @@ namespace ManejoDeEventosTest
             }
         }
 
+=======
+            Console.WriteLine("Hello, World!");
+        }
+>>>>>>> b2e9dc3 (Add version 1.1)
     }
 }

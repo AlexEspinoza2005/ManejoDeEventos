@@ -7,10 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <ProjectReference Include="..\ManejoDeEventos.API.Consumer\ManejoDeEventos.API.Consumer.csproj" />
     <ProjectReference Include="..\ManejoDeEventos\ManejoDeEventos.csproj" />
     <ProjectReference Include="..\MannejoDeEventos.API\MannejoDeEventos.API.csproj" />
   </ItemGroup>
 
+=======
+>>>>>>> b2e9dc3 (Add version 1.1)
 </Project>

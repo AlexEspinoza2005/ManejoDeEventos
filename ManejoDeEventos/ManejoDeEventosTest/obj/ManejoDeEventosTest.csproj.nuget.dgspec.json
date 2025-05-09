@@ -108,9 +108,12 @@
               },
               "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\PruebaHerramientas\\ManejoDeEventos\\ManejoDeEventos\\ManejoDeEventos.csproj": {
                 "projectPath": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\PruebaHerramientas\\ManejoDeEventos\\ManejoDeEventos\\ManejoDeEventos.csproj"
+<<<<<<< HEAD
               },
               "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\PruebaHerramientas\\ManejoDeEventos\\MannejoDeEventos.API\\MannejoDeEventos.API.csproj": {
                 "projectPath": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\PruebaHerramientas\\ManejoDeEventos\\MannejoDeEventos.API\\MannejoDeEventos.API.csproj"
+=======
+>>>>>>> b2e9dc3 (Add version 1.1)
               }
             }
           }
@@ -214,6 +217,7 @@
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
+<<<<<<< HEAD
     },
     "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\PruebaHerramientas\\ManejoDeEventos\\MannejoDeEventos.API\\MannejoDeEventos.API.csproj": {
       "version": "1.0.0",
@@ -326,6 +330,8 @@
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
+=======
+>>>>>>> b2e9dc3 (Add version 1.1)
     }
   }
 }

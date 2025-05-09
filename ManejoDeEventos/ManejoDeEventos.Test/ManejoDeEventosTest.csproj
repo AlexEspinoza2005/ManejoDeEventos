@@ -1,16 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-<<<<<<< HEAD
-  <ItemGroup>
-    <PackageReference Include="Microsoft.aspnetcore.Mvc.NewtonsoftJson" Version="8.0.15" />
-  </ItemGroup>
-
-=======
->>>>>>> b2e9dc3 (Add version 1.1)
 </Project>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using Newtonsoft.Json;
 using System.Text;
 
@@ -107,3 +108,17 @@ namespace ManejoDeEventos.API.Consumer
         }
     }
 }
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ManejoDeEventos.API.Consumer
+{
+    internal class Crud
+    {
+    }
+}
+>>>>>>> b2e9dc3 (Add version 1.1)
