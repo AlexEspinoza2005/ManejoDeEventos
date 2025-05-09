@@ -24,8 +24,13 @@ namespace MannejoDeEventos.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Pago>>> GetPago()
         {
-            return await _context.Pagos.ToListAsync();
+            var datos = await _context.Pagos
+                .Include(p => p.Inscripcion)
+                .ToListAsync();
+
+            return datos;
         }
+
 
         // GET: api/Pagos/5
         [HttpGet("{id}")]

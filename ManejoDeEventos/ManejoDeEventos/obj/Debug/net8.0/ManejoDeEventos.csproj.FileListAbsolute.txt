@@ -9,3 +9,4 @@ C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEv
 C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\refint\ManejoDeEventos.dll
 C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\ManejoDeEventos.pdb
 C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\ref\ManejoDeEventos.dll
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\PruebaHerramientas\ManejoDeEventos\ManejoDeEventos\obj\Debug\net8.0\ManejoDeEventos.sourcelink.json

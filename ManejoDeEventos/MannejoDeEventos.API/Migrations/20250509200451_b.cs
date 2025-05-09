@@ -1,13 +1,12 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
 namespace MannejoDeEventos.API.Migrations
 {
     /// <inheritdoc />
-    public partial class pOSTGRE : Migration
+    public partial class b : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,13 +15,13 @@ namespace MannejoDeEventos.API.Migrations
                 name: "Eventos",
                 columns: table => new
                 {
-                    IdEvento = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Nombre = table.Column<string>(type: "text", nullable: false),
-                    FechaInicio = table.Column<string>(type: "text", nullable: false),
-                    FechaFin = table.Column<string>(type: "text", nullable: false),
-                    Tipo = table.Column<string>(type: "text", nullable: false),
-                    Lugar = table.Column<string>(type: "text", nullable: false)
+                    IdEvento = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FechaInicio = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FechaFin = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Tipo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Lugar = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -33,13 +32,13 @@ namespace MannejoDeEventos.API.Migrations
                 name: "Participantes",
                 columns: table => new
                 {
-                    IdParticipante = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Nombre = table.Column<string>(type: "text", nullable: false),
-                    Apellido = table.Column<string>(type: "text", nullable: false),
-                    Email = table.Column<string>(type: "text", nullable: false),
-                    Telefono = table.Column<string>(type: "text", nullable: false),
-                    Institucion = table.Column<string>(type: "text", nullable: false)
+                    IdParticipante = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Apellido = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Telefono = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Institucion = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -50,12 +49,12 @@ namespace MannejoDeEventos.API.Migrations
                 name: "Ponentes",
                 columns: table => new
                 {
-                    IdPonente = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Nombre = table.Column<string>(type: "text", nullable: false),
-                    Apellido = table.Column<string>(type: "text", nullable: false),
-                    Institucion = table.Column<string>(type: "text", nullable: false),
-                    Email = table.Column<string>(type: "text", nullable: false)
+                    IdPonente = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Apellido = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Institucion = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -66,14 +65,14 @@ namespace MannejoDeEventos.API.Migrations
                 name: "Sesiones",
                 columns: table => new
                 {
-                    IdSesion = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Titulo = table.Column<string>(type: "text", nullable: false),
-                    HoraInicio = table.Column<string>(type: "text", nullable: false),
-                    HoraFin = table.Column<string>(type: "text", nullable: false),
-                    Sala = table.Column<string>(type: "text", nullable: false),
-                    IdEvento = table.Column<int>(type: "integer", nullable: false),
-                    EventoIdEvento = table.Column<int>(type: "integer", nullable: false)
+                    IdSesion = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    HoraInicio = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    HoraFin = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Sala = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IdEvento = table.Column<int>(type: "int", nullable: false),
+                    EventoIdEvento = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -90,14 +89,14 @@ namespace MannejoDeEventos.API.Migrations
                 name: "Inscripciones",
                 columns: table => new
                 {
-                    IdInscripcion = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    FechaInscripcion = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    Estado = table.Column<string>(type: "text", nullable: false),
-                    IdParticipante = table.Column<int>(type: "integer", nullable: false),
-                    ParticipanteIdParticipante = table.Column<int>(type: "integer", nullable: false),
-                    IdEvento = table.Column<int>(type: "integer", nullable: false),
-                    EventoIdEvento = table.Column<int>(type: "integer", nullable: false)
+                    IdInscripcion = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FechaInscripcion = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Estado = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IdParticipante = table.Column<int>(type: "int", nullable: false),
+                    ParticipanteIdParticipante = table.Column<int>(type: "int", nullable: false),
+                    IdEvento = table.Column<int>(type: "int", nullable: false),
+                    EventoIdEvento = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -120,13 +119,13 @@ namespace MannejoDeEventos.API.Migrations
                 name: "EventoSPonenteS",
                 columns: table => new
                 {
-                    IdEventoPonente = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    IdEvento = table.Column<int>(type: "integer", nullable: false),
-                    EventoIdEvento = table.Column<int>(type: "integer", nullable: false),
-                    IdPonente = table.Column<int>(type: "integer", nullable: false),
-                    PonenteIdPonente = table.Column<int>(type: "integer", nullable: false),
-                    EventoPonenteIdEventoPonente = table.Column<int>(type: "integer", nullable: true)
+                    IdEventoPonente = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    IdEvento = table.Column<int>(type: "int", nullable: false),
+                    EventoIdEvento = table.Column<int>(type: "int", nullable: false),
+                    IdPonente = table.Column<int>(type: "int", nullable: false),
+                    PonenteIdPonente = table.Column<int>(type: "int", nullable: false),
+                    EventoPonenteIdEventoPonente = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -154,10 +153,10 @@ namespace MannejoDeEventos.API.Migrations
                 name: "Certificados",
                 columns: table => new
                 {
-                    IdCertificado = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    FechaEmision = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    IdInscripcion = table.Column<int>(type: "integer", nullable: false)
+                    IdCertificado = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FechaEmision = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IdInscripcion = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -174,12 +173,12 @@ namespace MannejoDeEventos.API.Migrations
                 name: "Pagos",
                 columns: table => new
                 {
-                    IdPago = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    FechaPago = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    Monto = table.Column<decimal>(type: "numeric", nullable: false),
-                    MedioPago = table.Column<string>(type: "text", nullable: false),
-                    IdInscripcion = table.Column<int>(type: "integer", nullable: false)
+                    IdPago = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FechaPago = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Monto = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    MedioPago = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IdInscripcion = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

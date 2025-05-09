@@ -9,7 +9,12 @@ namespace MannejoDeEventos.API
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<AppHDbContext>(options =>
-                options.UseNpgsql(builder.Configuration.GetConnectionString("AppHDbContext") ?? throw new InvalidOperationException("Connection string 'AppHDbContext' not found.")));
+        options.UseSqlServer(
+    builder.Configuration.GetConnectionString("AppHDbContext")
+
+
+         )
+     );
 
             // Add services to the container.
 

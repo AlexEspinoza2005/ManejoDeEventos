@@ -19,13 +19,20 @@ namespace MannejoDeEventos.API.Controllers
         {
             _context = context;
         }
-
         // GET: api/Inscripciones
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Inscripcion>>> GetInscripcion()
         {
-            return await _context.Inscripciones.ToListAsync();
+            var datos = await _context.Inscripciones
+                .Include(i => i.Participante)
+                .Include(i => i.Evento)
+                .Include(i => i.Pago)
+                .Include(i => i.Certificado)
+                .ToListAsync();
+
+            return datos;
         }
+
 
         // GET: api/Inscripciones/5
         [HttpGet("{id}")]

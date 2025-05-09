@@ -24,8 +24,14 @@ namespace MannejoDeEventos.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<EventoPonente>>> GetEventoPonente()
         {
-            return await _context.EventoSPonenteS.ToListAsync();
+            var datos = await _context.EventoSPonenteS
+                .Include(ep => ep.Evento)
+                .Include(ep => ep.Ponente)
+                .ToListAsync();
+
+            return datos;
         }
+
 
         // GET: api/EventosPonentes/5
         [HttpGet("{id}")]
